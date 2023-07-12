@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct tiktaktoeApp: App {
+    @StateObject var game = GameService()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JuegoView().environmentObject(game)
         }
     }
 }

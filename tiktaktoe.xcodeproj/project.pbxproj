@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		23157BE02A5CC7DB00BA9C0F /* tiktaktoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157BDF2A5CC7DB00BA9C0F /* tiktaktoeApp.swift */; };
-		23157BE22A5CC7DB00BA9C0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157BE12A5CC7DB00BA9C0F /* ContentView.swift */; };
+		23157BE22A5CC7DB00BA9C0F /* JuegoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157BE12A5CC7DB00BA9C0F /* JuegoView.swift */; };
 		23157BE42A5CC7DD00BA9C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23157BE32A5CC7DD00BA9C0F /* Assets.xcassets */; };
 		23157BE72A5CC7DD00BA9C0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23157BE62A5CC7DD00BA9C0F /* Preview Assets.xcassets */; };
 		23157BF12A5CC7DE00BA9C0F /* tiktaktoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157BF02A5CC7DE00BA9C0F /* tiktaktoeTests.swift */; };
 		23157BFB2A5CC7DE00BA9C0F /* tiktaktoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157BFA2A5CC7DE00BA9C0F /* tiktaktoeUITests.swift */; };
 		23157BFD2A5CC7DE00BA9C0F /* tiktaktoeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157BFC2A5CC7DE00BA9C0F /* tiktaktoeUITestsLaunchTests.swift */; };
+		23157C0C2A5CCD3D00BA9C0F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23157C0B2A5CCD3D00BA9C0F /* Launch Screen.storyboard */; };
+		23157C0F2A5CD19A00BA9C0F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157C0E2A5CD19A00BA9C0F /* GameModel.swift */; };
+		23157C142A5CDDAF00BA9C0F /* GamePantalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157C132A5CDDAF00BA9C0F /* GamePantalla.swift */; };
+		23157C162A5D0CE000BA9C0F /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157C152A5D0CE000BA9C0F /* GameService.swift */; };
+		23157C182A5E1A4300BA9C0F /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157C172A5E1A4300BA9C0F /* GameSquare.swift */; };
+		23157C1A2A5E1D2000BA9C0F /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157C192A5E1D2000BA9C0F /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		23157BDC2A5CC7DB00BA9C0F /* tiktaktoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiktaktoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23157BDF2A5CC7DB00BA9C0F /* tiktaktoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiktaktoeApp.swift; sourceTree = "<group>"; };
-		23157BE12A5CC7DB00BA9C0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23157BE12A5CC7DB00BA9C0F /* JuegoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoView.swift; sourceTree = "<group>"; };
 		23157BE32A5CC7DD00BA9C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23157BE62A5CC7DD00BA9C0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23157BEC2A5CC7DE00BA9C0F /* tiktaktoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiktaktoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		23157BF62A5CC7DE00BA9C0F /* tiktaktoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiktaktoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23157BFA2A5CC7DE00BA9C0F /* tiktaktoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiktaktoeUITests.swift; sourceTree = "<group>"; };
 		23157BFC2A5CC7DE00BA9C0F /* tiktaktoeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiktaktoeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23157C0B2A5CCD3D00BA9C0F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		23157C0E2A5CD19A00BA9C0F /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		23157C132A5CDDAF00BA9C0F /* GamePantalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePantalla.swift; sourceTree = "<group>"; };
+		23157C152A5D0CE000BA9C0F /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		23157C172A5E1A4300BA9C0F /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		23157C192A5E1D2000BA9C0F /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				23157BDF2A5CC7DB00BA9C0F /* tiktaktoeApp.swift */,
-				23157BE12A5CC7DB00BA9C0F /* ContentView.swift */,
+				23157BE12A5CC7DB00BA9C0F /* JuegoView.swift */,
+				23157C102A5CDD2E00BA9C0F /* GamePantalla */,
+				23157C0D2A5CD13B00BA9C0F /* Models */,
 				23157BE32A5CC7DD00BA9C0F /* Assets.xcassets */,
+				23157C0B2A5CCD3D00BA9C0F /* Launch Screen.storyboard */,
 				23157BE52A5CC7DD00BA9C0F /* Preview Content */,
 			);
 			path = tiktaktoe;
@@ -125,6 +140,25 @@
 				23157BFC2A5CC7DE00BA9C0F /* tiktaktoeUITestsLaunchTests.swift */,
 			);
 			path = tiktaktoeUITests;
+			sourceTree = "<group>";
+		};
+		23157C0D2A5CD13B00BA9C0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23157C0E2A5CD19A00BA9C0F /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23157C102A5CDD2E00BA9C0F /* GamePantalla */ = {
+			isa = PBXGroup;
+			children = (
+				23157C132A5CDDAF00BA9C0F /* GamePantalla.swift */,
+				23157C152A5D0CE000BA9C0F /* GameService.swift */,
+				23157C172A5E1A4300BA9C0F /* GameSquare.swift */,
+				23157C192A5E1D2000BA9C0F /* SquareView.swift */,
+			);
+			path = GamePantalla;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23157C0C2A5CCD3D00BA9C0F /* Launch Screen.storyboard in Resources */,
 				23157BE72A5CC7DD00BA9C0F /* Preview Assets.xcassets in Resources */,
 				23157BE42A5CC7DD00BA9C0F /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23157BE22A5CC7DB00BA9C0F /* ContentView.swift in Sources */,
+				23157C142A5CDDAF00BA9C0F /* GamePantalla.swift in Sources */,
+				23157BE22A5CC7DB00BA9C0F /* JuegoView.swift in Sources */,
+				23157C162A5D0CE000BA9C0F /* GameService.swift in Sources */,
 				23157BE02A5CC7DB00BA9C0F /* tiktaktoeApp.swift in Sources */,
+				23157C1A2A5E1D2000BA9C0F /* SquareView.swift in Sources */,
+				23157C182A5E1A4300BA9C0F /* GameSquare.swift in Sources */,
+				23157C0F2A5CD19A00BA9C0F /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +462,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,6 +491,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
